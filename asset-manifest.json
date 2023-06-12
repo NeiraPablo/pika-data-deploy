@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pika-data-deploy/static/css/main.147cadfb.css",
+    "main.js": "/pika-data-deploy/static/js/main.e1fcb212.js",
+    "static/js/787.d878e188.chunk.js": "/pika-data-deploy/static/js/787.d878e188.chunk.js",
+    "static/media/PikaData.png": "/pika-data-deploy/static/media/PikaData.4254372da22b605d63e9.png",
+    "index.html": "/pika-data-deploy/index.html",
+    "main.147cadfb.css.map": "/pika-data-deploy/static/css/main.147cadfb.css.map",
+    "main.e1fcb212.js.map": "/pika-data-deploy/static/js/main.e1fcb212.js.map",
+    "787.d878e188.chunk.js.map": "/pika-data-deploy/static/js/787.d878e188.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.147cadfb.css",
+    "static/js/main.e1fcb212.js"
+  ]
+}
