@@ -1,0 +1,42 @@
+.item-card {
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    height: fit-content;
+    overflow: hidden;
+    cursor: pointer;
+    transition: height 0.3s ease;
+}
+
+.item-card.open {
+    height: auto;
+}
+
+.item-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.item-sprite {
+    margin-right: 8px;
+    width: 42px;
+    height: 42px;
+}
+
+.item-name {
+    flex-grow: 1;
+    text-transform: capitalize;
+}
+
+.item-toggle-icon {
+    margin-left: 8px;
+}
+
+.item-description {
+    margin-top:20px ;
+    border-top: 1px solid grey;
+    padding-top: 8px;
+}

@@ -1,0 +1,37 @@
+.abilities-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .abilities-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .abilities-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .abilities-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .abilities-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 345px) {
+    .abilities-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

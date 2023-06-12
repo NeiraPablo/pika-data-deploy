@@ -1,0 +1,64 @@
+.move-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.move-content {
+    z-index: 1;
+}
+
+.move-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.move-effect {
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.move-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.move-type, .move-category, .move-power, .move-accuracy {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.move-type {
+    background-color: #3d3d3d;
+}
+
+.move-category {
+    background-color: #FF6666;
+}
+
+.move-power {
+    background-color: #449c71;
+}
+
+.move-accuracy {
+    background-color: #3E92CC;
+}

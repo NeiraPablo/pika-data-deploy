@@ -1,0 +1,8 @@
+.navbar{
+    background-color: #ff6c6c;
+}
+
+[class^="logo"]{
+    width: 100%;
+    height: 50px;
+}

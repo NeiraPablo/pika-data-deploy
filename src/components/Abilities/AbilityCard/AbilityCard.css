@@ -1,0 +1,34 @@
+.ability-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+    margin: 6px;
+}
+
+.ability-card:hover {
+    transform: scale(1.08);
+}
+
+.ability-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ability-name {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.ability-effect {
+    border-top: 1px solid black;
+    font-size: 14px;
+    color: #555;
+    padding-top: 8px;
+}
